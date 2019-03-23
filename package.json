@@ -4,11 +4,12 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
+    // "test": "echo \"Error: no test specified\" && exit 1"
   },
-    "start": "node App.js",
-  "keywords": [],
-  "author": "",
+  
+  "keywords": ["example" , "heroku"],
+  "author": "umair-raza",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",
@@ -18,5 +19,8 @@
     "multer": "^1.4.1",
     "passport": "^0.4.0",
     "passport-local": "^1.0.0"
+  },
+  "engines" : {
+    "node": "10.13.0"
   }
 }
