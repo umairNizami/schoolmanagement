@@ -162,5 +162,5 @@ server.use((err, req, res, nex) => {
     res.status(500).send('Something went wrong')
 
 })
-
-server.listen( 8080, () => console.log('server is running succesfully'))
+var port = process.env.port || 3000;
+server.listen( port , () => console.log('server is running succesfully at  '+ port  ))
